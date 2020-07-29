@@ -1,13 +1,13 @@
 import React from "react";
 
-function ButtonLink(props) {
+function Button(props) {
     //props ==> { className: "O que alguém passar",  href: "/"}
     console.log(props);
     return (
-        <a href={props.href} className={props.className}>
+        <a href={props.to} className={props.className}>
             Novo Vídeo
         </a >
     );
 }
 
-export default ButtonLink;
+export default Button;
